@@ -10,6 +10,8 @@ import { HomePageComponent } from './home-page/home-page.component';
 import { ChartsComponent } from './charts/charts.component';
 import { CardsComponent } from './cards/cards.component';
 import { OrdersComponent } from './orders/orders.component';
+import { ProductsComponent } from './products/products.component';
+import { FourOhFourComponent } from './four-oh-four/four-oh-four.component';
 
 
 @NgModule({
@@ -21,7 +23,9 @@ import { OrdersComponent } from './orders/orders.component';
     HomePageComponent,
     ChartsComponent,
     CardsComponent,
-    OrdersComponent
+    OrdersComponent,
+    ProductsComponent,
+    FourOhFourComponent
     
   ],
   imports: [
