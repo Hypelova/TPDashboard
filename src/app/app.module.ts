@@ -7,6 +7,9 @@ import { LeftSidebarComponent } from './left-sidebar/left-sidebar.component';
 import { HeaderComponent } from './header/header.component';
 import { DashboardComponent } from './dashboard/dashboard.component';
 import { HomePageComponent } from './home-page/home-page.component';
+import { ChartsComponent } from './charts/charts.component';
+import { CardsComponent } from './cards/cards.component';
+import { OrdersComponent } from './orders/orders.component';
 
 
 @NgModule({
@@ -15,7 +18,10 @@ import { HomePageComponent } from './home-page/home-page.component';
     LeftSidebarComponent,
     HeaderComponent,
     DashboardComponent,
-    HomePageComponent
+    HomePageComponent,
+    ChartsComponent,
+    CardsComponent,
+    OrdersComponent
     
   ],
   imports: [
