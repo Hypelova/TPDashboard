@@ -5,12 +5,18 @@ import { AppRoutingModule } from './app-routing.module';
 import { AppComponent } from './app.component';
 import { LeftSidebarComponent } from './left-sidebar/left-sidebar.component';
 import { HeaderComponent } from './header/header.component';
+import { DashboardComponent } from './dashboard/dashboard.component';
+import { HomePageComponent } from './home-page/home-page.component';
+import { RootComponent } from './root/root.component';
 
 @NgModule({
   declarations: [
     AppComponent,
     LeftSidebarComponent,
-    HeaderComponent
+    HeaderComponent,
+    DashboardComponent,
+    HomePageComponent,
+    RootComponent
   ],
   imports: [
     BrowserModule,
