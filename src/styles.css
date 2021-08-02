@@ -59,6 +59,11 @@
     -o-transition: all 0.3s ease;
     transition: all 0.3s ease;
   }
+
+  aside {
+      float: left;
+  }
+  
   
   /*----------------page-wrapper----------------*/
   

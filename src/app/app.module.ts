@@ -7,7 +7,7 @@ import { LeftSidebarComponent } from './left-sidebar/left-sidebar.component';
 import { HeaderComponent } from './header/header.component';
 import { DashboardComponent } from './dashboard/dashboard.component';
 import { HomePageComponent } from './home-page/home-page.component';
-import { RootComponent } from './root/root.component';
+
 
 @NgModule({
   declarations: [
@@ -15,8 +15,8 @@ import { RootComponent } from './root/root.component';
     LeftSidebarComponent,
     HeaderComponent,
     DashboardComponent,
-    HomePageComponent,
-    RootComponent
+    HomePageComponent
+    
   ],
   imports: [
     BrowserModule,
