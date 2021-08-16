@@ -12,6 +12,7 @@ import { CardsComponent } from './cards/cards.component';
 import { OrdersComponent } from './orders/orders.component';
 import { ProductsComponent } from './products/products.component';
 import { FourOhFourComponent } from './four-oh-four/four-oh-four.component';
+import { ChartModule } from 'angular2-chartjs';
 
 
 @NgModule({
@@ -30,7 +31,8 @@ import { FourOhFourComponent } from './four-oh-four/four-oh-four.component';
   ],
   imports: [
     BrowserModule,
-    AppRoutingModule
+    AppRoutingModule,
+    ChartModule
   ],
   providers: [],
   bootstrap: [AppComponent]
